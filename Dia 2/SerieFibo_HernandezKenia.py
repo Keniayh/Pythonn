@@ -33,3 +33,6 @@ while tex == 1:
         tex = 0
     else:
         tex = 1
+
+
+#Desarrollado por: Kenia Yulieth Hernandez Diaz - 1098386069

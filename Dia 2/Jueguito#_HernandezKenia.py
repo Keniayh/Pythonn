@@ -33,3 +33,6 @@ while (contar != 0):
             print("El número secreto es menor al número ingresado.")
             contar -= 1
             intentos+=1
+
+
+#Desarrollado por: Kenia Yulieth Hernandez Diaz - 1098386069
