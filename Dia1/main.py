@@ -63,7 +63,7 @@ texto1 = "Campus"
 if texto1 == "Campus":
     print("Soy campus")
 else:
-    print("No soy campus")
+    print("No soy campus.")
 
 #---- Array -----
 # 1. Lista
