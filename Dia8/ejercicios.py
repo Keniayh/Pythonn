@@ -9,7 +9,7 @@ pedidos = ejercicio["ventas"]["pedidos"]
 
 PedidosOrdenados = sorted(pedidos, key=ObtenerFecha, reverse=True)
 
-#print(pedidos_ordenados)
+#print(PedidosOrdenados)
 
 with open('Ejercicio1.json', 'w') as outfile:
     json.dump(PedidosOrdenados, outfile, indent=2)
@@ -53,9 +53,9 @@ Pedidos2017Mas500 = []
 
 for pedido in ejercicio["ventas"]["pedidos"]:
     
-    a単o_pedido = int(pedido["fecha"].split("-")[0]) #dividir el valor de fecha de acuerdo a los - y solo agarrar el primero (A単o)
+    año_pedido = int(pedido["fecha"].split("-")[0]) #dividir el valor de fecha de acuerdo a los - y solo agarrar el primero (A単o)
     
-    if a単o_pedido == 2017 and pedido["total"] > 500:
+    if año_pedido == 2017 and pedido["total"] > 500:
         Pedidos2017Mas500.append(pedido)
 
 with open('Ejercicio4.json', 'w') as outfile:
